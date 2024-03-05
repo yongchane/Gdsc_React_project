@@ -1,0 +1,21 @@
+  .slide-show {
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .horizontal {
+    overflow-x: scroll;
+    flex-direction: row;
+  }
+  
+  .vertical {
+    overflow-y: scroll;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+  
